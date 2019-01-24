@@ -21,7 +21,7 @@ twenty = []
 thirty = []
 forty = []
 
-with open ('mct1_data.csv', 'r') as csv_file: # r = read
+with open ('mct1_data0.csv', 'r') as csv_file: # r = read
     csv_reader = csv.DictReader(csv_file) # DictReader includes key in output reader does not
     for column in csv_reader: #print(column['Subject ID'], column['Fatigue Index']) to print Fatigue Index Data
         student_id.append(float(column['subject_id']))
